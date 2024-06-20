@@ -1,6 +1,4 @@
 import AppKit
-import Cocoa
-import Foundation
 
 func bundleIdentifier(for url: URL) -> String? {
     guard let appURL = NSWorkspace.shared.urlForApplication(toOpen: url),
